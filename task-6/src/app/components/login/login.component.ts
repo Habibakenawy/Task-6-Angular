@@ -7,6 +7,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { CalendarModule } from 'primeng/calendar';
 
 import { ButtonModule } from 'primeng/button';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 
 
@@ -14,7 +15,7 @@ import { ButtonModule } from 'primeng/button';
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule,CommonModule,ReactiveFormsModule,CheckboxModule,InputTextModule,CalendarModule,ButtonModule],
+  imports: [FormsModule,CommonModule,ReactiveFormsModule,CheckboxModule,InputTextModule,CalendarModule,ButtonModule,NavbarComponent],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
